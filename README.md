@@ -5,7 +5,7 @@ Rat-Shell is a "C2-Ish" Stage 0 Framework with lot of enhanced functionalities a
 
 Still in developpement, Rat-Shell is a C2 in python3 which can handle multiple connexions on a Teamserver. You can configure multiples listeners and generate corresponding agent to initiate connexions from remote host. Severals advanced initial access methods are implemented & easily configurable.
 
-Types of handlers :
+###### Types of handlers :
   - HTTP/HTTPS
   - TCP
   - UDP
@@ -16,8 +16,9 @@ Multiples loading & injecting methods depending on targeted system.
 More on these features after...
 
 #### Main functionnalities:
-  Command 🎮           Description 📜
+  ###### Command 🎮           Description 📜
   ========             ==============
+ ```bash 
   help         [+]     Print this message.
   connect      [+]     Connect with a sibling server.
   generate     [+]     Generate shell scripts.
@@ -31,14 +32,14 @@ More on these features after...
   exec         [+]     Execute a local file or command against a session.
   open         [+]     Open a file locally directly from a session.
   modify       [+]     Open a file locally from a session and save the modified version in same place 
-	                     on remote session when you close file locally.
+	               on remote session when you close file locally.
   alias        [+]     Set an alias for a shell session.
   exit                 Kill all sessions and quit.
+  ```		
   		
-  		
-  Post-Ex Commands 🔥
+  ###### Post-Ex Commands 🔥
   =================
-  		
+  ```bash
   nodeshell    [+]     Launch a NodeJS Shell against a shell session and attempt to bypass UAC (see help)
   pyramid      [+]     Pyramid Integration.
   bin2pwsh     [+]     Craft PowerShell in-memory loaders from .NET assemblies and native binaries and execute it on session filelessely.
@@ -47,46 +48,47 @@ More on these features after...
   exec-pwshx   [+]     PowerShx Integration
   reg                  Have fun with victim's Windows registry.
   aceshark     	
+  ```	
 		
-		
-  Pivoting Commands
+  ###### Pivoting Commands
   =================
-  		
+  ```bash	
   socks    [+]    Create Reverse Socks Proxy on victim's host.
   ligolo   [+]    Create VPN Tunnel with last version of Ligolo-ng client.
 		
   ->     [+]    Local Port Forwarding.
   <-     [+]    Remote Port Forwarding.
+  ```
 		
-		
-  Servers Commands
+  ###### Servers Commands
   ===============
-  		
+  ```bash	
   start-updog	  Start the Updog file server. 🐶
   stop-updog      Stop the Updog file server.
   synergy         Start Synergy-Https GET/POST Requests server in a new terminal.
-		
-  Shell commands 🥷
+  ```
+  ###### Shell commands 🥷
   ======================
-		
+  ```bash	
   upload    [+]     Upload files into an active shell session.
   inject    [+]     Fileless exec of local scripts over http.
-		
+  ```
 
-  Available Modules Commands
+  ###### Available Modules Commands
   =====================
-  		
+  	
   All modules command begin with run.
 		
-  Command 🎮             Modules Description 📜
+  ###### Command 🎮             Modules Description 📜
   ========               ====================  
+  ```bash
   run check      [+]     Run the AV/EDR Check & Exclusions (WINDOWS ONLY) 
   run lsenum     [+]     Run LinuxSmartEnumeration Script (UNIX ONLY)
   run les        [+]     Run LinuxExploitSuggester Script (UNIX ONLY)
   run peass      [+]     Run Peass-NG (UNIX & WINDOWS)
   run lpe        [+]     Run the Local PrivEscalation 1/2 (UNIX & WINDOWS)
   run dumper     [+]     Run the SAM Dumper (WINDOWS ONLY)
-
+  ```
 ANd many others options/functionnalities to come...
 Possibility to enhance functionnalities with easy python3 scripting integration.
 
