@@ -42,7 +42,7 @@ More on these features after...
   ```bash
   nodeshell    [+]     Launch a NodeJS Shell against a shell session and attempt to bypass UAC (see help)
   pyramid      [+]     Pyramid Integration.
-  bin2pwsh     [+]     Craft PowerShell in-memory loaders from .NET assemblies and native binaries and execute it on session filelessely.
+  injectpwsh     [+]     Craft PowerShell in-memory loaders from .NET assemblies and native binaries and execute it on session filelessely.
   getsystem   	       Get a NT-AUTHORITY/SYSTEM Shell (Need to have a medium integrity user's session)
   exec-pc      [+]     PC Integration Test...
   exec-pwshx   [+]     PowerShx Integration
