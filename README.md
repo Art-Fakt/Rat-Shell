@@ -4,6 +4,7 @@ Rat-Shell is a "C2-Ish" Stage 0 Framework with lot of enhanced functionalities a
 ### !!!!!!!!!!!!!!   UNDER ACTIVE DEVELOPPEMENT    !!!!!!!!!!!!!!!!!!
 
 Still in developpement, Rat-Shell is a C2 in python3 which can handle multiple connexions on a Teamserver. You can configure multiples listeners and generate corresponding agent to initiate connexions from remote host. Severals advanced initial access methods are implemented & easily configurable.
+RatS-hell is developped for initial access & pivoting easily & rapidly on all systems. Many clever and advanced techniques are already bundled in Rat-Shell and some can bypass security measures in place like AMSI, UAC, ETW and defeat AV & EDR.
 
 ###### Types of handlers :
   - HTTP/HTTPS
@@ -12,7 +13,9 @@ Still in developpement, Rat-Shell is a C2 in python3 which can handle multiple c
   - DNS
 
 For every handlers you have the possibility to create multiples one-liners as agent or files with differents methods of encoding & obfuscation if needed. 
-Multiples loading & injecting methods depending on targeted system.
+Multiples loading & injecting methods depending on targeted system. You can generate many differents payloads for x86 and x64 arch, differents interpreter, loaders, encoding, and more...
+
+Easily extensible with implementation of modules configuration & scripting.
 More on these features after...
 
 #### Main functionnalities:
